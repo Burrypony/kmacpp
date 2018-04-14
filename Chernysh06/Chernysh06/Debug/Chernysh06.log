@@ -1,0 +1,25 @@
+﻿Build started 18.03.2018 20:18:21.
+     1>Project "C:\Users\Kiril\Desktop\Chernysh06\Chernysh06\Chernysh06.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\Chernysh06.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         E:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Main.cpp
+         Main.cpp
+     1>c:\users\kiril\desktop\chernysh06\chernysh06\main.cpp(28): warning C4101: e: неиспользованная локальная переменная
+       Link:
+         E:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Kiril\Desktop\Chernysh06\Debug\Chernysh06.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Chernysh06.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Kiril\Desktop\Chernysh06\Debug\Chernysh06.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Kiril\Desktop\Chernysh06\Debug\Chernysh06.lib" /MACHINE:X86 Debug\Date.obj
+         Debug\Main.obj
+         Debug\Time.obj
+         Debug\Timer.obj
+         LINK : не найден или не выполнена сборка C:\Users\Kiril\Desktop\Chernysh06\Debug\Chernysh06.exe при последней инкрементной компоновке; выполняется полная компоновка
+         Chernysh06.vcxproj -> C:\Users\Kiril\Desktop\Chernysh06\Debug\Chernysh06.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\Kiril\Desktop\Chernysh06\Debug\Chernysh06.exe;#1" /manifest Debug\Chernysh06.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Debug\Chernysh06.unsuccessfulbuild".
+         Touching "Debug\Chernysh06.lastbuildstate".
+     1>Done Building Project "C:\Users\Kiril\Desktop\Chernysh06\Chernysh06\Chernysh06.vcxproj" (build target(s)).
+
+Построение успешно завершено.
+
+Time Elapsed 00:00:01.06

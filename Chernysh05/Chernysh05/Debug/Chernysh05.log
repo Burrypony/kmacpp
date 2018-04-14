@@ -1,0 +1,29 @@
+﻿Build started 25.02.2018 23:46:16.
+     1>Project "C:\Users\Kiril\Desktop\Chernysh05\Chernysh05\Chernysh05.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\Chernysh05.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         E:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Date.cpp main.cpp
+         Date.cpp
+     1>c:\users\kiril\desktop\chernysh05\chernysh05\date.cpp(186): warning C4996: 'gmtime': This function or variable may be unsafe. Consider using gmtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\program files (x86)\microsoft visual studio 10.0\vc\include\time.inl(99): см. объявление "gmtime"
+         Создание кода...
+         Компиляция...
+         main.cpp
+     1>c:\users\kiril\desktop\chernysh05\chernysh05\main.cpp(17): warning C4482: использовано нестандартное расширение: перечислитель "Date::Month" использован в полном имени
+         Создание кода...
+       Link:
+         E:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Kiril\Desktop\Chernysh05\Debug\Chernysh05.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Chernysh05.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Kiril\Desktop\Chernysh05\Debug\Chernysh05.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Kiril\Desktop\Chernysh05\Debug\Chernysh05.lib" /MACHINE:X86 Debug\Date.obj
+         Debug\main.obj
+         LINK : не найден или не выполнена сборка C:\Users\Kiril\Desktop\Chernysh05\Debug\Chernysh05.exe при последней инкрементной компоновке; выполняется полная компоновка
+         Chernysh05.vcxproj -> C:\Users\Kiril\Desktop\Chernysh05\Debug\Chernysh05.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\Kiril\Desktop\Chernysh05\Debug\Chernysh05.exe;#1" /manifest Debug\Chernysh05.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Debug\Chernysh05.unsuccessfulbuild".
+         Touching "Debug\Chernysh05.lastbuildstate".
+     1>Done Building Project "C:\Users\Kiril\Desktop\Chernysh05\Chernysh05\Chernysh05.vcxproj" (build target(s)).
+
+Построение успешно завершено.
+
+Time Elapsed 00:00:00.89
